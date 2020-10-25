@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+
+}
+
+.logo img{
+   
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 60px; 
+    margin: 5px;
+
+    padding: 3px; /* add extra */
+
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+    
+
+}
+
+.nav-list{
+    /* width: 70%; */
+    /* background-color: black; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+   
+ 
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav-list li a:hover{
+    /* text-decoration: none; */
+    color: gray;
+
+}
+
+
+.rightNav{
+    /* background-color: blueviolet; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+
+}
+
+#search{
+    padding: 5px; 
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img2.jpg'); 
+    /* background: rgba(0,35,16,0.8);     add extra */
+    background-size: cover;
+    /* background-blend-mode: darken; */
+     /* add below 2 line  */
+    background-blend-mode: hue;
+    /* background-color: cornflowerblue; */
+}
+
+.backgroundColor{
+    background: rgba(0, 0, 0, 0.7) url('img1.jpg'); 
+    /* background: rgba(0,0,0,0.9);     add extra   */
+    background-size: cover;
+    /* background-blend-mode: darken; */
+     /* add below 2 line  */
+    background-blend-mode: hue;
+    /* background-color: cornflowerblue; */
+
+
+} 
+
+.firstSection{
+    height: 67vh;
+    
+} 
+
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+
+
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    /* color: rebeccapurple; */
+    
+    flex-direction: column;
+    justify-content: center;
+/* add 3 linr */
+
+    /* margin-top: 100px;  
+    margin-right: 96px;
+    margin-left: -158px; */
+    
+}
+
+
+
+.secondHalf{
+    width: 30%;
+    /* border: 4px solid white;
+    border-radius: 150px;  */
+    
+    display: block;
+    margin: auto;
+
+    margin-top: 122px;  /* add extrra */
+} 
+
+.secondHalf img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+    margin-top: 10px; /* add 2 line extra */
+    margin-bottom: 60px;
+} 
+
+
+.text-big{
+    font-size: 41px;
+    /* text-align: center ; */
+    color:black;  /* add extra */
+}
+
+
+.text-big-cou{
+    /* text-align: center; */
+    font-size: 41px;   /* add 2 line */
+    color:  #ab8f8f;
+    
+}
+
+
+
+.text-small{
+    font-size: 18px;
+    color:black;
+}
+
+.text-small-cou{
+    font-size: 18px;
+    color:#d1d1d4;
+}
+
+.btn{
+    
+    padding: 8px 20px;
+    margin: 7px;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /* margin-top: 5px;  add extra */
+}
+
+
+.btn-sm{
+    
+padding: 6px 10px;
+vertical-align: middle;
+font-size: 16px;
+
+}
+
+.section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+.section-left{
+    flex-direction: row-reverse;
+
+}
+
+.paras{
+    padding: 0px 65px ;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 19px;
+
+    margin-left: 68px; /* add extra */
+
+}
+
+.contact{
+    background-color: aliceblue;
+    height: 750px;
+
+}
+
+.text-center{
+    text-align: center;
+    /* padding: 35px; */
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 10px auto;
+
+}
+
+.form-input{
+    margin: 20px 0;
+    padding: 5px 10px;
+    width: 100%;
+    /* padding: 6px; */
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    color:white;
+    border: 2px solid gray;
+    border-radius: 30px; 
+} 
+
+.text-footer{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    background-color: #ceedfa;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+     
+
+}
+.line{
+    width: 30px;
+    background-color: wheat;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 425px;
+        flex-direction: column;
+        transition: all 0.3s ease-in;
+    } 
+    .rightNav{
+        text-align: center;
+        
+    } 
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+
+
+    .text-small{
+        text-align: center;
+
+    }
+    .text-big-cou{
+        text-align: center;
+        font-size: 30px;   /* add 2 line */
+        color: white;
+        
+    }
+
+    .buttons{
+        text-align: center;
+        margin-bottom: 20px;   /* add  line */
+        
+    }
+
+    .paras{
+        padding: 0px;
+
+    }
+
+
+
+} 
